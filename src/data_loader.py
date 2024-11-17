@@ -14,5 +14,5 @@ def load_data(file_path):
 
 if __name__ == "__main__":
     # Test loading the data with a raw string path
-    df = load_data(r'C:\Users\MMM\Documents\10 Academy File\KAIM-Week-12\data\raw_analyst_ratings.csv')
+    df = load_data(r'C:/Users/MMM/Documents/10 Academy File/KAIM-Week-12/data/raw_analyst_ratings.csv')
     print(df.head())
